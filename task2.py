@@ -1,5 +1,9 @@
 n = int(input("введите число: "))
-for i in range(n+1):
+if n > 0:
+    lst = range(n+1)
+elif n < 0:
+    lst = range(n,n*-1)
+for i in lst:
     if i == 0:
         continue
     elif n % i == 0:
