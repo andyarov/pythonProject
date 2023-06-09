@@ -8,5 +8,3 @@ for i in lst:
         continue
     elif n % i == 0:
         print(i)
-    else:
-        continue
