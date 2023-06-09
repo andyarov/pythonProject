@@ -18,4 +18,4 @@ elif first_number < second_number:
     print(first_number)
     print(second_number)
 else:
-    print("числа равны")
+    print("The numbers are equal")
