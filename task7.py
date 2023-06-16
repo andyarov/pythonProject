@@ -1,8 +1,8 @@
 def dgt(n):
     if n>0:
-        return "положительное"
+        return "Positive"
     elif n==0:
-        return "равно нулю"
+        return "0"
     else:
-        return "отрицательное"
-dgt(3)
+        return "Negative"
+print(dgt(3))
