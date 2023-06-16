@@ -6,5 +6,5 @@ print(sum)
 
 dict1['f'] = None
 print(dict1)
-dict2 = [dict(dict1.items()) for value in dict1.values() if value != None]
-print(dict2)
+dict1 = {key:value for key, value in dict1.items() if value != None}
+print(dict1)
