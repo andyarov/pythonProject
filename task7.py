@@ -1,8 +1,9 @@
-def dgt(n):
-    if n>0:
-        return "Positive"
-    elif n==0:
-        return "0"
-    else:
-        return "Negative"
-print(dgt(3))
+dgt, keyw = input().split()
+dgt = int(dgt)
+def conv(dgt, keyw):
+    if keyw == 'F':
+        deg = (dgt - 32) / 1.8
+    elif keyw == 'C':
+        deg = dgt * 1.8 + 32
+    return deg
+print(conv(dgt, keyw))
