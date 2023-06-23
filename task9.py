@@ -1,7 +1,7 @@
 symbols = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 strng = input()
-def remove_symbols(string, symbols):
-    result = [i for i in string if i not in symbols]
-    return result
+def remove_symbols(strng, symbols):
+    result = [i for i in strng if i not in symbols]
+    return print(''.join(map(str, result)))
 
-print(remove_symbols(strng, symbols))
+remove_symbols(strng, symbols)
