@@ -8,7 +8,6 @@
 
 def srt():
     words = [w.lower() for w in input().split(",")]
-    # words.sort()
-    # return words
-    return sorted(words)
+    words.sort()
+    return words
 print(srt())
