@@ -13,7 +13,7 @@
 print(srt())'''
 
 nested_list = [['a', 'b', 'c', 'd', 'e', 'f']]
-result = []
+# result = []
 result = [i for lst in nested_list for i in lst]
 '''for i in nested_list:
     for j in i:
