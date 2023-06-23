@@ -21,5 +21,5 @@ print(srt())'''
     for j in i:
         result.append(j)'''
 nested_list = [['a', 'b', 'c', 'd', 'e', 'f']]
-result = list(chain.from_iterable(nested_list))
+result = list(chain(*nested_list))
 print(result)
