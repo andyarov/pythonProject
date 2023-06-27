@@ -8,16 +8,20 @@ score = 0
 
 def quiz(answer):
     global score
+    user_try = 2
     for i in range(3):
-        inp_answer = int(input())
+        inp_answer = input().lower()
         if inp_answer == answer:
             print('Your answer is correct')
             score += 1
             break
-        else:
+        elif user_try != 0:
             print('Your answer is not correct, try again')
+            user_try -= 1
             continue
+        else:
+            print('Your answers is not correct')
 
 
-quiz(2)
-print(score)
+quiz('2')
+print('Your score =', score)
