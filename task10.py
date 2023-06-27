@@ -5,8 +5,7 @@
 
 score = 0
 
-
-def quiz(answer):
+'''def quiz(answer):
     global score
     tries = 2
     for i in range(3):
@@ -20,7 +19,25 @@ def quiz(answer):
             tries -= 1
             continue
         else:
-            print('Your answers is not correct, you have {} tries'.format(tries))
+            print('Your answers is not correct, you have {} tries'.format(tries))'''
+
+
+def quiz(answer):
+    global score
+    tries = 3
+    while tries != 0:
+        inp_answer = input().lower()
+        if inp_answer == answer:
+            print('Your answer is correct')
+            score += 1
+            break
+        else:
+            tries -= 1
+            if tries == 0:
+                break
+            print('Try again, you have {} tries'.format(tries))
+            continue
+    print('Your answers is not correct, you have {} tries'.format(tries))
 
 
 quiz('2')
