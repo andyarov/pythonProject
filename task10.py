@@ -8,19 +8,19 @@ score = 0
 
 def quiz(answer):
     global score
-    user_try = 2
+    tries = 2
     for i in range(3):
         inp_answer = input().lower()
         if inp_answer == answer:
             print('Your answer is correct')
             score += 1
             break
-        elif user_try != 0:
-            print('Your answer is not correct, try again')
-            user_try -= 1
+        elif tries != 0:
+            print('Try again, you have {} tries'.format(tries))
+            tries -= 1
             continue
         else:
-            print('Your answers is not correct')
+            print('Your answers is not correct, you have {} tries'.format(tries))
 
 
 quiz('2')
