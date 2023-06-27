@@ -26,8 +26,8 @@ def quiz(answer):
     global score
     tries = 3
     while tries != 0:
-        inp_answer = input().lower()
-        if inp_answer == answer:
+        inp_answer = input()
+        if inp_answer.lower() == answer.lower():
             print('Your answer is correct')
             score += 1
             break
