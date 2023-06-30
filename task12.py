@@ -1,4 +1,4 @@
-class Rectangle():
+'''class Rectangle():
 
     def __init__(self, a, b):
         self.a = a
@@ -10,4 +10,22 @@ class Rectangle():
 
 
 rect = Rectangle(4, 5)
-print(rect.square())
+print(rect.square())'''
+from math import pi
+
+
+class Circle():
+    def __init__(self, r):
+        self.r = r
+
+    def square(self):
+        sq = pi(self.r ** 2)
+        return sq
+
+    def perimetr(self):
+        c = pi(r * 2)
+        return c
+
+
+circle = Circle(6)
+print('sq=', circle.square(), 'c=', circle.perimetr())
