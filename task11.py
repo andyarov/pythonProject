@@ -29,8 +29,8 @@ strng = input()
 
 def letters_counter(st):
     vowels = 'AaEeIiOoUuYy'
-    vowels_letters = [letters for letters in st if x in vowels]
-    consonants_letters = [letters for letters in st if x not in vowels]
+    vowels_letters = [letters for letters in st if letters in vowels]
+    consonants_letters = [letters for letters in st if letters not in vowels]
     print('vowels: ', len(vowels_letters))
     print('consonants: ', len(consonants_letters))
 
