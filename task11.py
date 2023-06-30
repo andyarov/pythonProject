@@ -24,9 +24,9 @@ insects('жесткокрылые', 'двукрылые', 'чешуекрылы�
 
 print_hello()'''
 
-strng = input()
+'''strng = input()
 
-'''def letters_counter(st):
+def letters_counter(st):
     vowels = 'AaEeIiOoUuYy'
     vowels_letters = len([letters for letters in st if letters in vowels])
     consonants_letters = len([letters for letters in st if letters not in vowels])
