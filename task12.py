@@ -4,7 +4,7 @@ class Rectangle():
         self.a = a
         self.b = b
 
-    def square(self, ):
+    def square(self):
         sq = self.a * self.b
         return sq
 
