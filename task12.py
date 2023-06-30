@@ -1,4 +1,4 @@
-'''class Rectangle():
+'''class Rectangle:
 
     def __init__(self, a, b):
         self.a = a
@@ -14,7 +14,7 @@ print(rect.square())'''
 from math import pi
 
 
-class Circle():
+class Circle:
     def __init__(self, r):
         self.r = r
 
