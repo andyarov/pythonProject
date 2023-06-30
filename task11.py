@@ -36,5 +36,7 @@ def letters_counter(st):
 
 letters_counter(strng)'''
 
-'''range(max(n,0))
-range(n)'''
+a = list(range(max(6, 0)))
+b = list(range(6))
+print(a)
+print(b)
