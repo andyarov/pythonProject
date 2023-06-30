@@ -24,8 +24,7 @@ insects('жесткокрылые', 'двукрылые', 'чешуекрылы�
 
 print_hello()'''
 
-strng = input()
-
+'''strng = input()
 
 def letters_counter(st):
     vowels = 'AaEeIiOoUuYy'
@@ -35,4 +34,7 @@ def letters_counter(st):
     print('consonants: ', len(consonants_letters))
 
 
-letters_counter(strng)
+letters_counter(strng)'''
+
+'''range(max(n,0))
+range(n)'''
