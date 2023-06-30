@@ -19,11 +19,11 @@ class Circle():
         self.r = r
 
     def square(self):
-        sq = pi(self.r ** 2)
+        sq = pi * (self.r ** 2)
         return sq
 
     def perimetr(self):
-        c = pi(r * 2)
+        c = pi * self.r * 2
         return c
 
 
