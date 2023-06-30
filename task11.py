@@ -4,4 +4,4 @@ def calendar(yyyy, mm, dd=''):
     print('Today is {} {} {}'.format(dd, mm, yyyy))
 
 
-calendar(yyyy, mm, dd)
+calendar(1000, 12, 3)
