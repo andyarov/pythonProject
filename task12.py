@@ -28,4 +28,4 @@ class Circle:
 
 
 circle = Circle(6)
-print('sq=', circle.square(), 'c=', circle.perimetr())
+print('sq =', circle.square(), 'c =', circle.perimetr())
