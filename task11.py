@@ -17,10 +17,10 @@ insects('жесткокрылые', 'двукрылые', 'чешуекрылы�
 def print_hello():
     strng = "Привет питонист!"
 
-    def print_str(st):
-        print(st)
+    def print_str():
+        print(strng)
 
-    print_str(strng)
+    print_str()
 
 
 print_hello()
