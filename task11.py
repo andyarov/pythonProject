@@ -47,7 +47,7 @@ def roman_to_decimal(roman_number):
         if tallies[left] < tallies[right]:
             sum -= tallies[left]
         else:
-            sum += tallies[right]
+            sum += tallies[left]
     sum += tallies[roman_number[-1]]
     return sum
 
