@@ -5,3 +5,7 @@ class Employee:
 
     def display_employee(self):
         print("Name:", self.name, "salary:", self.salary)
+
+
+empl = Employee("Tom", 50000)
+empl.display_employee()
